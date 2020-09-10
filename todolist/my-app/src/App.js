@@ -12,6 +12,12 @@ function App() {
 
   return (
     <div className="App">
+    Aurelia's To Do list
+    <br/>
+    <br/>
+    Enter your item!
+    <br/>
+    When you're done, mark it off by entering the number and pressing the done button
     <ToDoList />
 
 
