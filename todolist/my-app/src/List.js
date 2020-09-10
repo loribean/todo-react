@@ -1,11 +1,11 @@
 import React from 'react';
 const List = (props) => {
     return (
-        <ul>
+        <ol>
             {props.listData.map((item,index)=>{
                 return <li key={index}>{item}</li>
             })}
-        </ul>
+        </ol>
 
 
         )

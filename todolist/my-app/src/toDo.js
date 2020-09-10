@@ -19,6 +19,10 @@ const ToDo = (props) => {
                 e.preventDefault()
                     props.onClick(e)
                 }}/>
+            <button name='delete' onClick={(e)=>{
+                e.preventDefault()
+                    props.onDel(e)
+                }}> Delete</button>
         </form>
 
 
